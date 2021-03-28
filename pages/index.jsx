@@ -1,11 +1,12 @@
-import CardGrid from "../components/CardGrid";
 import Link from "next/link";
+import PageHead from "../components/PageHead";
 import Title from "../components/Title";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
     <>
+      <PageHead title="Home" />
       <Title />
       <p className={styles.description}>
         Someone sent you this because of one of the following reasons:

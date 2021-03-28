@@ -1,10 +1,10 @@
 import CardGrid from "../../components/CardGrid";
-import Title from "../../components/Title";
+import PageHead from "../../components/PageHead";
 
 export default function Learn() {
   return (
     <div>
-      <Title />
+      <PageHead title="Learn" />
       <CardGrid />
     </div>
   );
