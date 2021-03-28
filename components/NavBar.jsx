@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Title from "./Title";
 
 export default function NavBar() {
   return (
