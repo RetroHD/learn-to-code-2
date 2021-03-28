@@ -1,3 +1,4 @@
+import CardGrid from "../components/CardGrid";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 
@@ -26,59 +27,7 @@ export default function Home() {
 
         <h2>That isn't a bad thing!</h2>
 
-        <div className={styles.grid}>
-          <div className={styles.card}>
-            <h3>Learn JavaScript</h3>
-            <ul>
-              <li>
-                <a href="https://www.codecademy.com/learn/javascript">
-                  CodeCademy
-                </a>
-              </li>
-              <li>
-                <a href="http://eloquentjavascript.net">Free JavaScript Book</a>
-              </li>
-              <li>
-                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction">
-                  JavaScript Documentation
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div className={styles.card}>
-            <h3>Learn Node.js</h3>
-            <ul>
-              <li>
-                <a href="https://nodeschool.io/">NodeSchool</a>
-              </li>
-              <li>
-                <a href="https://www.codeschool.com/courses/real-time-web-with-node-js">
-                  CodeSchool
-                </a>
-              </li>
-              <li>
-                <a href="https://nodejs.org/en/docs/">Node.js Documentation</a>
-              </li>
-            </ul>
-          </div>
-          <div className={styles.card}>
-            <h3>Learn Discord.js</h3>
-            <ul>
-              <li>
-                <a href="https://discordjs.guide/">Discord.js Guide</a>
-              </li>
-              <li>
-                <a href="https://discord.js.org/#/docs/main/stable/general/welcome">
-                  Discord.js Documentation
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div className={styles.card}>
-            <h3>Don't Feel Bad!</h3>
-            <p>We all start somewhere, take your time and practice!</p>
-          </div>
-        </div>
+        <CardGrid />
       </main>
 
       <footer className={styles.footer}>
