@@ -5,7 +5,7 @@ import styles from "../styles/Home.module.css";
 export default function CardGrid() {
   return (
     <div className={styles.grid}>
-      <Card title="Learn JavaScript">
+      <Card title="JavaScript">
         <CardItem
           name="Codecademy"
           url="https://www.codecademy.com/learn/javascript"
@@ -19,7 +19,7 @@ export default function CardGrid() {
           url="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction"
         />
       </Card>
-      <Card title="Learn Node.js">
+      <Card title="Node.js">
         <CardItem name="NodeSchool" url="https://nodeschool.io" />
         <CardItem
           name="CodeSchool"
@@ -30,7 +30,7 @@ export default function CardGrid() {
           url="https://nodejs.org/en/docs/"
         />
       </Card>
-      <Card title="Learn Discord.js">
+      <Card title="Discord.js">
         <CardItem name="Discord.js Guide" url="https://discordjs.guide" />
         <CardItem
           name="Discord.js Documentation"

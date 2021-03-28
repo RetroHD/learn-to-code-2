@@ -1,9 +1,12 @@
 import CardGrid from "../components/CardGrid";
+import Link from "next/link";
+import Title from "../components/Title";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
     <>
+      <Title />
       <p className={styles.description}>
         Someone sent you this because of one of the following reasons:
       </p>
@@ -17,7 +20,11 @@ export default function Home() {
 
       <h2>That isn't a bad thing!</h2>
 
-      <CardGrid />
+      <Link href="/learn">
+        <a>
+          <h1>Begin Learning &rarr;</h1>
+        </a>
+      </Link>
     </>
   );
 }
