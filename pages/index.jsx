@@ -1,21 +1,16 @@
 import CardGrid from "../components/CardGrid";
-import Head from "next/head";
+import Footer from "../components/Footer";
+import PageHead from "../components/PageHead";
+import Title from "../components/Title";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
     <div className={styles.container}>
-      <Head>
-        <title>Learn To Code | lmao.cx</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <PageHead title="Learn To Code | lmao.cx" />
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Learn To Code</h1>
-
-        <p className={styles.description}>
-          Someone sent you this because of one of the following reasons:
-        </p>
+        <Title />
 
         <ol className={styles.code}>
           <li>You want free code</li>
@@ -30,14 +25,7 @@ export default function Home() {
         <CardGrid />
       </main>
 
-      <footer className={styles.footer}>
-        <p>
-          Created by <a href="https://github.com/RetroHD">OhItsRetro</a>
-          <span className={styles.id}>#0501</span> (owns this amazing domain)
-          and <a href="https://github.com/KryskZ09">KryskZ09</a>
-          <span className={styles.id}>#7620</span> (developed this website)
-        </p>
-      </footer>
+      <Footer />
     </div>
   );
 }
