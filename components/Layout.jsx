@@ -1,0 +1,18 @@
+import Footer from "./Footer";
+import NavBar from "./NavBar";
+import PageHead from "./PageHead";
+import Title from "./Title";
+import styles from "../styles/Home.module.css";
+
+export default function Layout({ pageTitle, children }) {
+  return (
+    <>
+      <NavBar />
+      <div className={styles.container}>
+        <PageHead title={pageTitle} />
+        <main className={styles.main}>{children}</main>
+        <Footer />
+      </div>
+    </>
+  );
+}
