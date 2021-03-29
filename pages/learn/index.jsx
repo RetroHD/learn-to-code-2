@@ -1,5 +1,5 @@
-import CardGrid from "../../components/CardGrid";
-import PageHead from "../../components/PageHead";
+import CardGrid from "../../components/Card/CardGrid";
+import PageHead from "../../components/Utils/PageHead";
 
 export default function Learn() {
   return (

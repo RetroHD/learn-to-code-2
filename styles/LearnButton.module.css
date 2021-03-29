@@ -1,0 +1,21 @@
+.learnButton {
+  display: flex;
+  align-items: center;
+}
+
+.learnButton:hover .arrow {
+  transform: translate(25px);
+}
+
+.arrow {
+  color: var(--accent);
+  vertical-align: middle;
+  padding-left: 10px;
+  transition: transform 0.2s ease-in-out;
+}
+
+@media (max-width: 600px) {
+  .learnButton .arrow {
+    display: none;
+  }
+}

@@ -1,0 +1,12 @@
+.imageRound {
+  border-radius: 50%;
+}
+
+.code {
+  background: #fafafa;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 1.25rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}

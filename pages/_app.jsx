@@ -1,9 +1,9 @@
 import "../styles/globals.css";
 
-import Layout from "../components/Layout";
+import Layout from "../components/Layout/Layout";
 import { useState } from "react";
 
-function MyApp({ Component, pageProps }) {
+function LearnToCodeApp({ Component, pageProps }) {
   // TODO: Implement theme switching
   const [isDark, setDark] = useState(false);
 
@@ -14,4 +14,4 @@ function MyApp({ Component, pageProps }) {
   );
 }
 
-export default MyApp;
+export default LearnToCodeApp;

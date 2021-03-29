@@ -1,6 +1,6 @@
 import Card from "./Card";
 import CardItem from "./CardItem";
-import styles from "../styles/Home.module.css";
+import styles from "../../styles/Card.module.css";
 
 export default function CardGrid() {
   return (

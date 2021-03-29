@@ -15,25 +15,6 @@ a {
   text-decoration: none;
 }
 
-nav {
-  display: flex;
-}
-
-nav a:hover {
-  color: var(--accent);
-}
-
-nav ul {
-  display: flex;
-}
-
-nav ul li {
-  list-style-type: none;
-  padding: 10px;
-  order: 1;
-  font-size: 25px;
-}
-
 a h1 {
   font-size: 50px;
   color: var(--accent);
