@@ -99,7 +99,7 @@
 .card:hover,
 .card:focus,
 .card:active {
-  border-color: #0070f3;
+  border-color: var(--accent);
 }
 
 .card h3 {
@@ -119,11 +119,21 @@
 }
 
 .card ul li:hover {
-  color: #0070f3;
+  color: var(--accent);
 }
 
 .logo {
   height: 1em;
+}
+
+.arrow {
+  vertical-align: middle;
+  padding-left: 10px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.learnLink:hover .arrow {
+  transform: translate3d(25px, 0px, 0px);
 }
 
 .imageRound {

@@ -1,3 +1,4 @@
+import { ChevronRight } from "react-feather";
 import Link from "next/link";
 import PageHead from "../components/PageHead";
 import Title from "../components/Title";
@@ -23,11 +24,16 @@ export default function Home() {
 
       <h2>That isn't a bad thing!</h2>
 
-      <Link href="/learn">
-        <a>
-          <h1>Begin Learning &rarr;</h1>
-        </a>
-      </Link>
+      <div>
+        <Link href="/learn">
+          <a className={styles.learnLink}>
+            <h1>
+              Begin Learning
+              <ChevronRight size={64} className={styles.arrow} />
+            </h1>
+          </a>
+        </Link>
+      </div>
     </>
   );
 }

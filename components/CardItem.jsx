@@ -1,8 +1,10 @@
+import ExternalLink from "./ExternalLink";
+
 export default function CardItem({ url, name }) {
   return (
     <>
       <li>
-        <a href={url}>{name}</a>
+        <ExternalLink link={url}>{name}</ExternalLink>
       </li>
     </>
   );
