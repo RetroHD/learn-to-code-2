@@ -5,6 +5,11 @@ export default function PageHead({ title }) {
     <Head>
       <title>{`${title} | lmao.cx`}</title>
       <link rel="icon" href="/favicon.ico" />
+      <meta property="og:title" content="Learn To Code" />
+      <meta
+        property="og:description"
+        content="You probably don't know how to code..."
+      />
     </Head>
   );
 }
