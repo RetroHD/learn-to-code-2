@@ -1,3 +1,4 @@
+import { Hash } from "react-feather";
 import Link from "next/link";
 
 export default function NavBar() {
@@ -6,7 +7,9 @@ export default function NavBar() {
       <ul>
         <li>
           <Link href="/">
-            <a>Home</a>
+            <a>
+              <Hash />
+            </a>
           </Link>
         </li>
         <li>
