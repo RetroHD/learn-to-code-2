@@ -1,0 +1,18 @@
+.navContainer {
+  display: flex;
+}
+
+.navContainer a:hover {
+  color: var(--accent);
+}
+
+.navContainer ul {
+  display: flex;
+}
+
+.navContainer ul li {
+  list-style-type: none;
+  padding: 10px;
+  order: 1;
+  font-size: 20px;
+}

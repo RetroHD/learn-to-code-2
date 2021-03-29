@@ -1,4 +1,4 @@
-import ExternalLink from "./ExternalLink";
+import ExternalLink from "../Utils/ExternalLink";
 
 export default function CardItem({ url, name }) {
   return (

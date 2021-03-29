@@ -1,5 +1,5 @@
-import ExternalLink from "./ExternalLink";
-import styles from "../styles/Home.module.css";
+import ExternalLink from "../Utils/ExternalLink";
+import styles from "../../styles/Footer.module.css";
 
 export default function Footer() {
   return (
@@ -9,9 +9,9 @@ export default function Footer() {
         <ExternalLink link="https://github.com/RetroHD">
           OhItsRetro
         </ExternalLink>
-        <span className={styles.id}>#0501</span> and{" "}
+        <span className={styles.discordId}>#0501</span> and{" "}
         <ExternalLink link="https://github.com/KryskZ09">KryskZ09</ExternalLink>
-        <span className={styles.id}>#7620</span>
+        <span className={styles.discordId}>#7620</span>
       </p>
     </footer>
   );

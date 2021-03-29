@@ -1,9 +1,10 @@
 import { Hash } from "react-feather";
 import Link from "next/link";
+import styles from "../../styles/NavBar.module.css";
 
 export default function NavBar() {
   return (
-    <nav>
+    <nav className={styles.navContainer}>
       <ul>
         <li>
           <Link href="/">
