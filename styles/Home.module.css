@@ -145,4 +145,8 @@
     width: 100%;
     flex-direction: column;
   }
+
+  .learnLink .arrow {
+    display: none;
+  }
 }
